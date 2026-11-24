@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Exclude runtime scraped data, caches, and deliverable sheets
+*.csv
+*.xlsx
+*_cache.json
+*_candidates*.json
+*_pool*.json
+verified_*.json
+current_*.json
+bonus_handles.json
+about_priority_queue.json
+!gql_endpoints.json
